@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-28T00:33:35 IST" name="Default suite" finished-at="2026-06-28T00:33:51 IST" duration-ms="16820">
+    <groups>
+    </groups>
+    <test started-at="2026-06-28T00:33:35 IST" name="Default test" finished-at="2026-06-28T00:33:51 IST" duration-ms="16820">
+      <class name="com.TestNG.Scenarios.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.TestNG.Scenarios.LoginTest@5bda8e08]" started-at="2026-06-28T00:33:35 IST" name="init" finished-at="2026-06-28T00:33:48 IST" duration-ms="13529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="ValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.Scenarios.LoginTest@5bda8e08]" started-at="2026-06-28T00:33:48 IST" name="ValidLoginTest" finished-at="2026-06-28T00:33:51 IST" duration-ms="2814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Scenarios.LoginTest@5bda8e08]" started-at="2026-06-28T00:33:51 IST" name="tearDown" finished-at="2026-06-28T00:33:51 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.Scenarios.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
