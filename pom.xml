@@ -62,11 +62,6 @@
             <version>2.0.9</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-        	<groupId>com.seleniumautomation</groupId>
-        	<artifactId>AutomationProject</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
   </dependencies>
   
   <build>
