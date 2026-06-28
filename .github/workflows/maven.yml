@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -31,6 +30,9 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-m2
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
 
       - name: Build and Run Tests
         run: mvn clean test
